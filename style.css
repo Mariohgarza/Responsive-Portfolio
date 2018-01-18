@@ -1,0 +1,559 @@
+* {
+	box-sizing: border-box;
+}
+
+.headerContainer {
+	clear: both;
+}
+
+
+
+#content {
+	background-color:white;
+	width:60%;
+	margin:left 0;
+	 color:grey;
+	float:left;
+	padding-bottom:400px;
+}
+
+
+
+.bodcolor {
+	background-color:#ddd;
+	
+	}
+
+.headerstyle {
+	
+	color:#4aaaa5;
+	width:40%;
+	text-align:center;
+	font-size:40px;
+	font-family:"Georgia", Times, Times New Roman, serif;;
+	padding:20px;
+	margin:auto;
+	margin-bottom:0px;
+	margin-right:500px;
+    
+}
+
+.pd {
+	font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color:#777777;
+	padding-left:80px;
+	padding-right:20px;
+	float:left;	
+}
+.pd1{
+	position:relative;
+	display:block;
+	padding-left:80px;
+	padding-right:20px;
+
+}
+
+
+#content1 {
+	background:white;
+	font-size:30px;
+	color:#4aaaa5;
+width:25%;
+float:right;
+margin:auto;
+margin-right:60px;
+margin-left:60px;
+text-align:center;
+padding: 30px 30px 30px 30px;
+
+
+
+}
+.wrapper1 {
+	width:600px
+	padding:20px
+	margin:0 auto 0 auto;
+}
+#info {
+	color:white;
+	width:20%;
+	font-size:20px;
+	text-align:center;
+	margin:auto;
+	margin-right:120px;
+	margin-bottom:-10px;
+	font-family:"Georgia", Times, Times New Roman, serif;
+	
+}
+
+.floatleft {
+	float:left;
+
+
+}
+.picturepadding {
+	padding:4px 10px 4px 0px !important;
+
+}
+
+#port {
+	color:white;
+	width:20%;
+	font-size:20px;
+	text-align:center;
+	margin:auto;
+	margin-right:60px;
+	margin-bottom:-10px;
+	font-family:"Georgia", Times, Times New Roman, serif;
+	
+}
+
+#contact {
+	color:white;
+	width:20%;
+	font-size:20px;
+	text-align:center;
+	margin:auto;
+	margin-right:20px;
+	margin-bottom:-10px;
+	font-family:"Georgia", Times, Times New Roman, serif;
+	
+}
+
+
+.wrapper {
+  display: grid;
+  float: left;
+
+}
+
+
+[class*='col__'] {
+  position: relative;
+  float: left;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  padding: 10px; }
+
+.col__1-1 {
+  width: 100%; }
+
+.col__1-2 {
+  width: 50%; }
+
+.col__2-2 {
+  width: 100%; }
+
+.col__1-3 {
+  width: 33.33333%; }
+
+.col__2-3 {
+  width: 66.66667%; }
+
+.col__3-3 {
+  width: 100%; }
+
+.col__1-4 {
+  width: 25%; }
+
+.col__2-4 {
+  width: 50%; }
+
+.col__3-4 {
+  width: 75%; }
+
+.col__4-4 {
+  width: 100%; }
+
+.col__1-5 {
+  width: 20%; }
+
+.col__2-5 {
+  width: 40%; }
+
+.col__3-5 {
+  width: 60%; }
+
+.col__4-5 {
+  width: 80%; }
+
+.col__5-5 {
+  width: 100%; }
+
+.col__1-6 {
+  width: 16.66667%; }
+
+.col__2-6 {
+  width: 33.33333%; }
+
+.col__3-6 {
+  width: 50%; }
+
+.col__4-6 {
+  width: 66.66667%; }
+
+.col__5-6 {
+  width: 83.33333%; }
+
+.col__6-6 {
+  width: 100%; }
+
+.col__1-10 {
+  width: 10%; }
+
+.col__2-10 {
+  width: 20%; }
+
+.col__3-10 {
+  width: 30%; }
+
+.col__4-10 {
+  width: 40%; }
+
+.col__5-10 {
+  width: 50%; }
+
+.col__6-10 {
+  width: 60%; }
+
+.col__7-10 {
+  width: 70%; }
+
+.col__8-10 {
+  width: 80%; }
+
+.col__9-10 {
+  width: 90%; }
+
+.col__10-10 {
+  width: 100%; }
+
+.col__1-12 {
+  width: 8.33333%; }
+
+.col__2-12 {
+  width: 16.66667%; }
+
+.col__3-12 {
+  width: 25%; }
+
+.col__4-12 {
+  width: 33.33333%; }
+
+.col__5-12 {
+  width: 41.66667%; }
+
+.col__6-12 {
+  width: 50%; }
+
+.col__7-12 {
+  width: 58.33333%; }
+
+.col__8-12 {
+  width: 66.66667%; }
+
+.col__9-12 {
+  width: 75%; }
+
+.col__10-12 {
+  width: 83.33333%; }
+
+.col__11-12 {
+  width: 91.66667%; }
+
+.col__12-12 {
+  width: 100%; 
+}
+
+.autowidth{
+	width:auto;
+	position:relative;
+	display:inline-block;
+}
+
+.name {
+	background-color:#4aaaa5;
+	color:white;
+	text-align:center;
+	font-size:35px;
+	font-family:"Georgia", Times, Times New Roman, serif;
+	margin:0;
+	padding-top:20px;
+	padding-bottom:32px;
+	padding-right:15px;
+	padding-left:15px;
+	width:auto;
+	float:left;	
+}
+
+.margins {
+	padding-left:100px;
+	padding-right:150px;
+	padding-top:0;
+	padding-bottom:0;
+	background-color:white;	
+}
+
+.bodymargin {
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+
+}
+.righttext {
+	text-align:right;
+	font-size:17px;
+	font-family:"Georgia", Times, Times New Roman, serif;
+	padding-top:35px;
+	padding-bottom:36px;
+	float:right;
+	width:auto;
+}
+
+.textpad {
+	padding-left:10px;
+	padding-right:10px;	
+}
+.hrmargin{
+	margin-top:0;
+	margin-bottom:0;
+}
+.footstyle {
+	position:fixed;
+	bottom:0;
+	background:#666666;
+	width:100%;
+	color:lightgrey;
+	padding-top:25px;
+	font-size:16px;
+	text-align:center;
+	border-top :8px solid #4aaaa5;
+	padding-bottom:25px;
+
+}
+.backcolor {
+	background-color:#E0E0E0;
+	width:100%;
+	height:auto;
+	
+	padding-right:150px;
+	padding-left:100px;
+	padding-top:40px;
+}
+
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	background-color:#E0E0E0;
+}
+.hrsides {
+	padding-right:10px;
+	padding-left:10px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.messageField {
+	height:100px;
+	font-size:20px;
+	font-family:cursive;
+}
+ .submitButton {
+ 	background-color:#4aaaa5;
+ 	color:white;
+ 	height:30px;
+ }
+
+@media only screen and (max-width:980px) {
+	
+.backcolor {
+	background-color:#E0E0E0;
+	width:100%;
+	height:auto;
+	
+	padding-right:6px;
+	padding-left:80px;
+	padding-top:20px;
+}
+@media only screen and (max-width:768px) {
+
+   .name {
+	background-color:#4aaaa5;
+	color:white;
+	text-align:center;
+	font-size:35px;
+	font-family:"Georgia", Times, Times New Roman, serif;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-right:7px;
+	padding-left:7px;
+	width:100%;
+	float:left;	
+}
+.margins {
+	padding-left:80px;
+	padding-right:100px;
+	padding-top:0;
+	padding-bottom:0;
+	background-color:white;	
+}
+.righttext {
+	text-align:right;
+	font-size:17px;
+	font-family:"Georgia", Times, Times New Roman, serif;
+	padding:35px;
+	padding-bottom:36px;
+	padding-left:0;
+	float:right;
+	width:100%;
+}
+	
+	/*body starts*/
+	.backcolor {
+	background-color:#E0E0E0;
+	width:100%;
+	height:auto;
+	
+	padding-right:100px;
+	padding-left:80px;
+	padding-top:20px;
+}
+#content {
+	background-color:white;
+	width:40%;
+	margin:left 0;
+	 color:grey;
+	float:left;
+	padding-bottom:200px;
+}
+.headerstyle {
+	
+	color:#4aaaa5;
+	width:30%;
+	text-align:center;
+	font-size:40px;
+	font-family:"Georgia", Times, Times New Roman, serif;;
+	padding:15px;
+	margin:auto;
+	margin-bottom:0px;
+	margin-right:300px;
+    
+}
+.backcolor1 {
+background-color:white;
+	width:100%;
+	height:auto;
+	padding-right:60px;
+	padding-left:40px;
+	padding-top:10px;
+	float:left;
+	}
+	
+#content1 {
+	background:white;
+	font-size:30px;
+	color:#4aaaa5;
+width:25%;
+float:right;
+
+margin-right:0px;
+margin-left:0px;
+text-align:center;
+padding:0;
+}
+#content {
+	background-color:white;
+	width:70%;
+	margin:left 0;
+	 color:grey;
+	float:left;
+	padding-bottom:50px;
+	padding-left:5px;
+}
+
+@media only screen and (max-width:640px) {
+	/*header*/
+   .name {
+	background-color:#4aaaa5;
+	color:white;
+	text-align:center;
+	font-size:35px;
+	font-family:"Georgia", Times, Times New Roman, serif;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-right:7px;
+	padding-left:7px;
+	width:100%;
+	float:left;	
+}
+.margins {
+	padding-left:60px;
+	padding-right:80px;
+	padding-top:0;
+	padding-bottom:0;
+	background-color:white;	
+}
+.righttext {
+	text-align:right;
+	font-size:17px;
+	font-family:"Georgia", Times, Times New Roman, serif;
+	padding:20px;
+	padding-bottom:20px;
+	float:right;
+	width:100%;
+}
+ 
+/*body*/
+ #content1 {
+	background:white;
+	font-size:30px;
+	color:#4aaaa5;
+width:25%;
+float:right;
+
+margin-right:0px;
+margin-left:0px;
+text-align:center;
+padding:0;
+}
+
+.backcolor {
+	background-color:#E0E0E0;
+	width:100%;
+	height:auto;
+	
+	padding-right:66px;
+	padding-left:66px;
+	padding-top:40px;
+}
+.pd1{
+	position:relative;
+	display:inline-block;
+	padding-left:80px;
+	padding-right:20px;
+
+}
+
+ #content {
+	background-color:white;
+	width:70%;
+	margin:left 0;
+	 color:grey;
+	float:left;
+	padding-bottom:50px;
+	padding-left:5px;
+}
+
+ 
